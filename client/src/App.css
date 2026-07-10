@@ -1,4 +1,27 @@
 .app {
-  text-align: center;
-  padding: 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.connection-status {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.connected {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #28a745;
+}
+
+.disconnected {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #dc3545;
 }
