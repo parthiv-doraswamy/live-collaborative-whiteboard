@@ -1,1 +1,1 @@
-{"private":true,"scripts":{"start":"node server/src/server.js","build":"npm install --prefix server"}}
+{"private":true,"scripts":{"start":"npm --prefix server start"},"dependencies":{"cors":"^2.8.5","express":"^5.1.0","socket.io":"^4.8.3"}}
